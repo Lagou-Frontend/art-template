@@ -17,7 +17,7 @@
 
 ##	特性
 
-*	性能卓越，执行速度通常是 Mustache 与 tmpl 的 20 多倍（[性能测试](http://aui.github.com/artTemplate/test/test-speed.html)）
+*	性能卓越，执行速度通常是 Mustache 与 tmpl 的 20 多倍（[性能测试](http://lagou-frontend.github.io/artTemplate/test/test-speed.html)）
 *	支持运行时调试，可精确定位异常模板所在语句（[演示](http://aui.github.io/artTemplate/demo/debug.html)）
 *	对 NodeJS Express 友好支持
 *	安全，默认对输出进行转义、在沙箱中运行编译后的代码（Node版本可以安全执行用户上传的模板）
@@ -51,7 +51,7 @@
 	document.getElementById('content').innerHTML = html;
 
 
-[演示](http://aui.github.com/artTemplate/demo/basic.html)
+[演示](http://lagou-frontend.github.io/artTemplate/demo/basic.html)
 
 ##	模板语法
 
@@ -108,7 +108,7 @@
 
 ###	template.``compile``(source, options)
 
-将返回一个渲染函数。[演示](http://aui.github.com/artTemplate/demo/compile.html)
+将返回一个渲染函数。[演示](http://lagou-frontend.github.io/artTemplate/demo/compile.html)
 
 ###	template.``render``(source, options)
 
@@ -140,7 +140,7 @@ template.helper('$ubb2html', function (content) {
 	
 注意：引擎不会对辅助方法输出的 HTML 字符进行转义。
 	
-[演示](http://aui.github.com/artTemplate/demo/helper.html)
+[演示](http://lagou-frontend.github.io/artTemplate/demo/helper.html)
 
 ###	template.``config``(name, value)
 
@@ -301,6 +301,6 @@ Released under the MIT, BSD, and GPL Licenses
 
 ============
 
-[所有演示例子](http://aui.github.com/artTemplate/demo/index.html) | [引擎原理](http://cdc.tencent.com/?p=5723)
+[所有演示例子](http://lagou-frontend.github.io/artTemplate/demo/index.html) | [引擎原理](http://cdc.tencent.com/?p=5723)
 
 © tencent.com
