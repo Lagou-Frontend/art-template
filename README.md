@@ -17,8 +17,8 @@
 
 ##	特性
 
-*	性能卓越，执行速度通常是 Mustache 与 tmpl 的 20 多倍（[性能测试](http://lagou-frontend.github.io/artTemplate/test/test-speed.html)）
-*	支持运行时调试，可精确定位异常模板所在语句（[演示](http://aui.github.io/artTemplate/demo/debug.html)）
+*	性能卓越，执行速度通常是 Mustache 与 tmpl 的 20 多倍（[性能测试](http://lagou-frontend.github.io/art-template/test/test-speed.html)）
+*	支持运行时调试，可精确定位异常模板所在语句（[演示](http://lagou-frontend.github.io/art-template/demo/debug.html)）
 *	对 NodeJS Express 友好支持
 *	安全，默认对输出进行转义、在沙箱中运行编译后的代码（Node版本可以安全执行用户上传的模板）
 *	支持``include``语句，可在浏览器端实现按路径加载模板
@@ -51,7 +51,7 @@
 	document.getElementById('content').innerHTML = html;
 
 
-[演示](http://lagou-frontend.github.io/artTemplate/demo/basic.html)
+[演示](http://lagou-frontend.github.io/art-template/demo/basic.html)
 
 ##	模板语法
 
@@ -85,13 +85,13 @@
 
 ##	演示
 
-*	[基本例子](http://aui.github.io/artTemplate/demo/basic.html)
-*	[不转义HTML](http://aui.github.io/artTemplate/demo/no-escape.html)
-*	[在javascript中存放模板](http://aui.github.io/artTemplate/demo/compile.html)
-*	[嵌入子模板(include)](http://aui.github.io/artTemplate/demo/include.html)
-*	[访问外部公用函数(辅助方法)](http://aui.github.io/artTemplate/demo/helper.html)
-*	[错误调试](http://aui.github.io/artTemplate/demo/debug.html)
-*	[print方法](http://aui.github.io/artTemplate/demo/print.html)
+*	[基本例子](http://lagou-frontend.github.io/art-template/demo/basic.html)
+*	[不转义HTML](http://lagou-frontend.github.io/art-template/demo/no-escape.html)
+*	[在javascript中存放模板](http://lagou-frontend.github.io/art-template/demo/compile.html)
+*	[嵌入子模板(include)](http://lagou-frontend.github.io/art-template/demo/include.html)
+*	[访问外部公用函数(辅助方法)](http://lagou-frontend.github.io/art-template/demo/helper.html)
+*	[错误调试](http://lagou-frontend.github.io/art-template/demo/debug.html)
+*	[print方法](http://lagou-frontend.github.io/art-template/demo/print.html)
 
 ##	下载
 
@@ -108,7 +108,7 @@
 
 ###	template.``compile``(source, options)
 
-将返回一个渲染函数。[演示](http://lagou-frontend.github.io/artTemplate/demo/compile.html)
+将返回一个渲染函数。[演示](http://lagou-frontend.github.io/art-template/demo/compile.html)
 
 ###	template.``render``(source, options)
 
@@ -140,7 +140,7 @@ template.helper('$ubb2html', function (content) {
 	
 注意：引擎不会对辅助方法输出的 HTML 字符进行转义。
 	
-[演示](http://lagou-frontend.github.io/artTemplate/demo/helper.html)
+[演示](http://lagou-frontend.github.io/art-template/demo/helper.html)
 
 ###	template.``config``(name, value)
 
@@ -301,6 +301,6 @@ Released under the MIT, BSD, and GPL Licenses
 
 ============
 
-[所有演示例子](http://lagou-frontend.github.io/artTemplate/demo/index.html) | [引擎原理](http://cdc.tencent.com/?p=5723)
+[所有演示例子](http://lagou-frontend.github.io/art-template/demo/index.html) | [引擎原理](http://cdc.tencent.com/?p=5723)
 
 © tencent.com
